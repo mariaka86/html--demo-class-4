@@ -22,11 +22,14 @@ body{
   h1{
 	float: left;
 	margin-left: 20px;
-	margin-right: 50px;
+	margin-right: 70px;
 	color:black;
 	text-shadow: 10px 10px 10px white;
   }
   
+  h3{
+	float: center;
+  }
   nav li{
 	display: inline-block;
 	margin-top: 30px;
@@ -73,21 +76,19 @@ body{
 	margin-right:0px;
   }
   
-  main p{
-	 width: 30%;
-	font-size: 20px;
-	margin-top: 30px;
-  }
+
   
-  footer p{
-	text-align:center;
+footer{
+	text-align:right;
 	background-color: rgb(224, 206, 209);
 	height: 100px;
-	padding-top: 50px;
+	padding-top: 0px;
+	}
   
-  }
-  p{
+  section p {
 	text-align: right;
-	font-size: 20px;
+
   }
+
+ 
   
