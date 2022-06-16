@@ -48,70 +48,81 @@ console.log('app js file is connected')
 
 
 //Global Variable
-let userInput;
-let coffeeType;
-let message;
+// let userInput;
+//let coffeeType;
+//let message;
 
-function userName () {
-  userInput = prompt('What  is your name ?');
+//function userName () {
+ // userInput = prompt('What  is your name ?');
   // console.log('username',userName);
-  return userInput;
-}
-userName();
+  //return userInput;
+//}
+//userName();
 
 
 
 
 
-function coffeeTime(){
+//function coffeeTime(){
 
-  let coffee = prompt ('Choose a number between 1 and 12 to see if I can guess your favorite coffee?');
-  console.log('coffee', typeof coffee);
+ // let coffee = prompt ('Choose a number between 1 and 12 to see if I can guess your favorite coffee?');
+  //console.log('coffee', typeof coffee);
 
-  coffeeType = parseInt(coffee);
+  //coffeeType = parseInt(coffee);
 
 
-  if(coffeeType === 1) {
-    message = 'Latte Macchiato!';
-  }else if ( coffeeType === 2){
-    message = 'Black eye!';
-  } else if (coffeeType === 3){
-    message = 'Frappe!';
-  }else if (coffeeType === 4){
-    message = 'Espresso-tonic!';
-  }else if (coffeeType === 5){
-    message = 'Cappucino';
-  }else if(coffeeType === 6) {
-    message = 'Espresso Fredo';
-  }else if(coffeeType === 7) {
-    message = 'Ra coffee';
-  }else if(coffeeType === 8) {
-    message = 'Iced latte';
-  }else if (coffeeType === 9) {
-    message = 'Cold Brew';
-  }else if(coffeeType === 10) {
-    message = 'Romano';
+ // if(coffeeType === 1) {
+   // message = 'Latte Macchiato!';
+  //}else if ( coffeeType === 2){
+    //message = 'Black eye!';
+  //} else if (coffeeType === 3){
+    //message = 'Frappe!';
+  //}else if (coffeeType === 4){
+   // message = 'Espresso-tonic!';
+  //}else if (coffeeType === 5){
+    //message = 'Cappucino';
+  //}else if(coffeeType === 6) {
+   // message = 'Espresso Fredo';
+  //}else if(coffeeType === 7) {
+   // message = 'Ra coffee';
+  //}else if(coffeeType === 8) {
+   // message = 'Iced latte';
+  //}else if (coffeeType === 9) {
+   // message = 'Cold Brew';
+  //}else if(coffeeType === 10) {
+   // message = 'Romano';
 
-  }else if(coffeeType === 11) {
-    message = 'Irish Coffee';
-  }else if(coffeeType === 12) {
-    message = 'Affogato';
+  //}else if(coffeeType === 11) {
+   // message = 'Irish Coffee';
+  //}else if(coffeeType === 12) {
+  //  message = 'Affogato';
+ // }
+  //else {
+    //message ='Check out our menu to see some suggestions!';
+  //}
+
+
+//  console.log ('our return message', message);
+//}
+
+
+//coffeeTime();
+
+//document.write('Hi ya ' + userInput + '! Your favorite type of coffee is ' + coffeeType + ' ' + message);
+
+
+function displayOrder(){
+  //code block to do.
+  let output = 'That is too many coffees';
+  let order = prompt('How many coffees would you like?');
+  
+  for(let i = 0;  i <= order; i++){
+    output += '<img src="https://blog.upsie.com/wp-content/uploads/2021/09/1200x629-laptop-Organic-blog127-v1-copy.jpg" alt = "spilled coffee">';
+  
   }
-  else {
-    message ='Check out our menu to see some suggestions!';
+  
+   return document.write(output);
   }
-
-
-  console.log ('our return message', message);
-}
-
-
-coffeeTime();
-
-
-
-
-
-
-
-document.write('Hi ya ' + userInput + '! Your favorite type of coffee is ' + coffeeType + ' ' + message);
+  displayOrder();
+  
+  
